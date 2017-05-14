@@ -29,7 +29,7 @@
 			$path         = $p_request->request->get( "path" );
 			$folder       = $p_request->request->get( "folder" );
 			$rootDir      = $this->get( "kernel" )->getRootDir();
-			$basePath     = $p_request->getBasePath();
+			$basePath     = $p_request->getScheme() . '://' . $p_request->getHttpHost() . $p_request->getBasePath();
 			// ------------------------- DECLARE ---------------------------//
 
 			// FIXME

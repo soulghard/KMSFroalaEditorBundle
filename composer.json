@@ -25,6 +25,6 @@
         "symfony/yaml": "^2.3|^3.0"
     },
     "autoload": {
-        "psr-4": { "Soulghard\\FroalaEditorBundle\\": "" }
+        "psr-4": { "KMS\\FroalaEditorBundle\\": "" }
     }
 }
